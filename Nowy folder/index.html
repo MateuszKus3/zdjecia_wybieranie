@@ -1,0 +1,39 @@
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <button id="czerwony">czerwony</button>
+      <button id="zolty">zolty</button>
+      <button id="zielony">zielony</button>
+      <button id="niebieski">niebieski</button>
+    </div>
+
+    <p></p>
+
+    <script>
+      const czer = document.querySelector("#czerwony");
+      const zolt = document.querySelector("#zolty");
+      const ziel = document.querySelector("#zielony");
+      const nieb = document.querySelector("#niebieski");
+      const p = document.querySelector("p");
+      czer.addEventListener("click", function () {
+        p.innerHTML = '<img src="czerwony1.png"> <br> wybrales kolor czerwony';
+      });
+      zolt.addEventListener("click", function () {
+        p.innerHTML = '<img src="zolty1.png"> <br> wybrales kolor zolty';
+      });
+      ziel.addEventListener("click", function () {
+        p.innerHTML = '<img src="zielony1.png"><br> wybrales kolor zielony';
+      });
+      nieb.addEventListener("click", function () {
+        p.innerHTML = '<img src="niebieski1.png"><br> wybrales kolor niebieski';
+      });
+    </script>
+  </body>
+</html>

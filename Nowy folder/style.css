@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(63, 63, 63);
+  margin: 5px;
+}
+
+#czerwony {
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(255, 14, 14);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#zielony {
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(10, 255, 23);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#niebieski {
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(10, 88, 255);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#zolty {
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(240, 208, 29);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  background-color: rgb(209, 209, 209);
+  border-radius: 10px;
+}
+p :hover {
+  transition: 2s;
+  transform: rotate(360deg);
+}
+#contaianer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
